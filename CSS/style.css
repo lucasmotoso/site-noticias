@@ -1,0 +1,29 @@
+/* Estrutura do site*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(255, 255, 255) url(../img/imagens/fundo.png) repeat-x;
+}
+
+#container{
+    width: 750px;
+    margin:0 auto;
+    border: 1px solid red;
+}
+
+#topo{
+    height: 150px;
+    background: url(../img/imagens/detalhe-topo.png) no-repeat right top;
+    border: 1px solid red;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../img/imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
